@@ -292,4 +292,10 @@ html{
     .card-middle{
         transform: translateX(0);
     }
+    .header-title{
+        font-size: 80px;
+    }
+    .adv-hexagon{
+        width: 100%;
+    }
 }
