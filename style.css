@@ -225,7 +225,7 @@ html{
     }
 }
 .advantages{
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
 }
 .adv-bg, .adv-content{
@@ -293,9 +293,16 @@ html{
         transform: translateX(0);
     }
     .header-title{
-        font-size: 80px;
+        font-size: 60px;
     }
     .adv-hexagon{
         width: 100%;
+    }
+    .img-left, .img-center, .img-right{
+        display: block;
+        width: 100%;
+    }
+    .adv-content{
+        position: relative;
     }
 }
